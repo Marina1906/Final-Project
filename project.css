@@ -1,62 +1,196 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-  pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
-  small, strike, strong, sub, sup, tt, var, b, u, i, center,
-  dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
-  thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer,
-  header, hgroup, menu, nav, output, ruby, section, summary,
-  time, mark, audio, video {
-   margin: 0;
-   padding: 0;
-  }
-  
-  /* HTML5 display-role reset for older browsers */
-  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display: block;
-  }
-  
-  ol, ul {
-    list-style: none;
-  }
-  blockquote, q {
-    quotes: none;
-  }
-  
-  blockquote:before, blockquote:after, q:before, q:after {
-    content: '';
-    content: none;
-  }
-  
-  table {
-    border-collapse: collapse;
-    border-spacing: 0;
-  }
-  html, body, h1, h2, h3, h4, p { margin: 0;
-padding: 0; font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
 }
 
-.hero-img {background-image: url("./quote.jpg");
-background-color: violet;
-padding-left: 2%;
-position: relative;
-background-position: center;
-height: 1100px;  
-background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(229,70,252,1) 100%);;
-;}
-h1 {
-text-align: center;
-text-transform: uppercase;
-text-decoration: darkviolet;
-font-style: bold;
-background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);   }
-.card {
-  padding-left: 69%;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
 }
-.list {
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-img {
+  background-image: url("./quote.jpg");
+  background-color: violet;
+  padding-left: 2%;
+  position: relative;
+  background-position: center;
+  /* height: 1100px; */
+  height: 100vh;
+  /*uzmi visinu pretrazivaca */
+ 
+}
+body {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(229, 70, 252, 1) 100%);
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: darkviolet;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+  padding: 16px;
+}
+
+.nav {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+  text-align: center;
+  
+
+}
+
+.nav-item {
   display: inline-block;
+  
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.card-body {
+  margin-left: auto;
+  margin-right: 0;
+  text-align: end;
+
+}
+
+.card-img {
+  max-width: 100%;
+
 }
