@@ -139,44 +139,54 @@ p,
 ul,
 li {
   margin: 0;
-  padding: 0;
+  padding: 16px;
 }
 
 .hero-img {
-  background-image: url("./quote.jpg");
-  background-color: violet;
   padding-left: 2%;
   position: relative;
   background-position: center;
   /* height: 1100px; */
   height: 100vh;
   /*uzmi visinu pretrazivaca */
- 
+
 }
+
 body {
   background: rgb(63, 94, 251);
   background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(229, 70, 252, 1) 100%);
 }
+
 h1 {
   text-align: center;
   text-transform: uppercase;
   text-decoration: darkviolet;
   background: rgb(63, 94, 251);
   background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
-  padding: 16px;
+  padding: 10px;
 }
 
 .nav {
   background: rgb(63, 94, 251);
   background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
   text-align: center;
-  
+
 
 }
 
 .nav-item {
   display: inline-block;
-  
+  padding: 25px;
+}
+
+.nav-link {
+  font-size: large;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: magenta;
 }
 
 .w-50 {
@@ -193,4 +203,26 @@ h1 {
 .card-img {
   max-width: 100%;
 
+}
+
+.link {
+  padding: 16px;
+  font-size: large;
+  font-style: normal;
+  color: magenta;
+}
+
+.link :hover {
+  color: magenta;
+}
+
+.gallery {
+  width: calc(20% - 12px);
+  display: inline-block;
+}
+
+.gallery-card {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
